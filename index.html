@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Test project</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__left">
+        <div class="header__burger-menu">
+          <svg width="60" height="20">
+            <use xlink:href="images/icons.svg#burger-menu"></use>
+          </svg>
+        </div>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Rooms</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Booking</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__center">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <div class="header__right">
+        <a class="header__number" href="tel:+43 660 605 0000"
+          >+43 660 605 0000</a
+        >
+        <div class="header__shopping-bag">
+          <svg width="28" height="28" class="shopping-bag">
+            <use xlink:href="images/icons.svg#shopping-bag"></use>
+          </svg>
+          <span class="shopping-bag-count">2</span>
+        </div>
+        <div class="header__lang-switcher">
+          <span class="de">DE</span>
+          <span class="en active">EN</span>
+        </div>
+      </div>
+    </header>
+    <section class="main container">
+      <div class="main__slide">
+        <div class="main__slide-shadow"></div>
+        <img
+          width="351"
+          height="800"
+          src="images/1.jpg"
+          alt="1"
+          class="main__slide-image"
+        />
+        <div class="main__slide-description">
+          <p class="main__slide-name">Da Vinci</p>
+          <span class="main__slide-category">Mystery</span>
+        </div>
+      </div>
+      <div class="main__slide">
+        <div class="main__slide-shadow"></div>
+        <img
+          width="351"
+          height="800"
+          src="images/2.jpg"
+          alt="2"
+          class="main__slide-image"
+        />
+        <div class="main__slide-description">
+          <p class="main__slide-name">Mission Belvedere</p>
+          <span class="main__slide-category">Action</span>
+        </div>
+      </div>
+      <div class="main__slide">
+        <div class="main__slide-action">
+          <p class="slide-action__left">20% off</p>
+          <div class="slide-action__right">
+            <p class="right-top">Limited-time Deal</p>
+            <p class="right-bottom">03:34:12</p>
+          </div>
+        </div>
+        <div class="main__slide-shadow"></div>
+        <img
+          width="351"
+          height="800"
+          src="images/3.jpg"
+          alt="3"
+          class="main__slide-image"
+        />
+        <div class="main__slide-description">
+          <p class="main__slide-name">School of magic</p>
+          <span class="main__slide-category">Adventure</span>
+        </div>
+      </div>
+      <div class="main__slide">
+        <div class="main__slide-shadow"></div>
+        <img
+          width="351"
+          height="800"
+          src="images/4.jpg"
+          alt="4"
+          class="main__slide-image"
+        />
+        <div class="main__slide-description">
+          <p class="main__slide-name">
+            The<br />
+            Unknown
+          </p>
+          <span class="main__slide-category"
+            >Horror with live actor
+            <svg width="29" height="29" class="mask">
+              <use xlink:href="images/icons.svg#mask"></use>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="main__slide">
+        <div class="main__slide-shadow"></div>
+        <img
+          width="351"
+          height="800"
+          src="images/5.jpg"
+          alt="5"
+          class="main__slide-image"
+        />
+        <div class="main__slide-description">
+          <p class="main__slide-name"><br />The Nun</p>
+          <span class="main__slide-category"
+            >Horror with live actor
+            <svg width="29" height="29" class="mask">
+              <use xlink:href="images/icons.svg#mask"></use>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
